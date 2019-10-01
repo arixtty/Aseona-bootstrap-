@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/29c025f179.js"></script>
 
@@ -16,7 +19,7 @@
 </head>
 
 <body>
-    <header class="header u-grid-width">
+    <header class="header container">
 
         <div class="logo">
             <img src="img/logo.png" alt="logo image" class="logo__img">
@@ -42,14 +45,14 @@
 
     <nav class="navigation">
 
-        <div class="u-grid-width">
-            <ul class="navigation__list">
-                <li class="navigation__list-item"><a href="#" class="navigation__list-link">Home</a></li>
-                <li class="navigation__list-item"><a href="#" class="navigation__list-link">Pages</a></li>
-                <li class="navigation__list-item"><a href="#" class="navigation__list-link">Services</a></li>
-                <li class="navigation__list-item"><a href="#" class="navigation__list-link">Case Studies</a></li>
-                <li class="navigation__list-item"><a href="#" class="navigation__list-link">Blog</a></li>
-                <li class="navigation__list-item"><a href="#" class="navigation__list-link">Contact</a></li>
+        <div class="container-fluid">
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Case Studies</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
             </ul>
 
             <div class="navigation__form">
@@ -523,10 +526,10 @@
                         <img src="img/logo.png" alt="logo image" class="logo__img">
                         <div class="logo__text">Aseona</div>
                     </div>
-    
+
                     <div class="contacts-phone"><span class="contacts-phone__number">(999) 999 99 9</span></div>
                     <address class="footer__address">arkady.kuznetsov@example.ii</br>38 Nice Street, Good Sate</address>
-    
+
                     <ul class="contacts-social">
                         <li class="contacts-social__btn"><a href="#"><i class="fab fa-facebook"></i></a></li>
                         <li class="contacts-social__btn"><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -535,12 +538,12 @@
                         <li class="contacts-social__btn"><a href="#"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-1-of-4">
                     <h3 class="heading-tertiary heading-tertiary--underlined">
                         About Us
                     </h3>
-    
+
                     <ul class="footer__list">
                         <li class="footer__link"><a class="footer__link" href="#">About U</a>s</li>
                         <li class="footer__link"><a class="footer__link" href="#">Our Wor</a>k</li>
@@ -549,35 +552,38 @@
                         <li class="footer__link"><a class="footer__link" href="#">FAQs</a></li>
                     </ul><a href="#">
                 </div><a href="#">
-    <a href="#">
-                <div class="col-1-of-4"><a href="#">
-                    <h3 class="heading-tertiary heading-tertiary--underlined">
-                        Services
-                    </h3>
-                    <ul class="footer__list">
-                        <li class="footer__link"><a class="footer__link" href="#">SEO Services</a></li>
-                        <li class="footer__link"><a class="footer__link" href="#">Social Media</a></li>
-                        <li class="footer__link"><a class="footer__link" href="#">SEO Case Studies</a></li>
-                        <li class="footer__link"><a class="footer__link" href="#">PPC Case Studies</a></li>
-                        <li class="footer__link"><a class="footer__link" href="#">Social Media Case Studies</a></li>
-                    </ul>
-                </div>
-    
-                <div class="col-1-of-4">
-                    <h3 class="heading-tertiary heading-tertiary--underlined">
-                        Latest Twitter
-                    </h3>
-    
-                    <p class="footer__tweet"><span class="footer__tweet--author">@Whatever</span> Lorem ipsum dolor sit
-                        amet
-                        consectetur adipisicing elit. Quia, porro?</p>
-                    <p class="footer__tweet"><span class="footer__tweet--author">@Whichever</span> Lorem ipsum, dolor
-                        sit
-                        amet consectetur adipisicing elit. Ipsa provident similique quibusdam pariatur inventore
-                        eligendi?
-                    </p>
-    
-                </div>
+                    <a href="#">
+                        <div class="col-1-of-4"><a href="#">
+                                <h3 class="heading-tertiary heading-tertiary--underlined">
+                                    Services
+                                </h3>
+                                <ul class="footer__list">
+                                    <li class="footer__link"><a class="footer__link" href="#">SEO Services</a></li>
+                                    <li class="footer__link"><a class="footer__link" href="#">Social Media</a></li>
+                                    <li class="footer__link"><a class="footer__link" href="#">SEO Case Studies</a></li>
+                                    <li class="footer__link"><a class="footer__link" href="#">PPC Case Studies</a></li>
+                                    <li class="footer__link"><a class="footer__link" href="#">Social Media Case
+                                            Studies</a></li>
+                                </ul>
+                        </div>
+
+                        <div class="col-1-of-4">
+                            <h3 class="heading-tertiary heading-tertiary--underlined">
+                                Latest Twitter
+                            </h3>
+
+                            <p class="footer__tweet"><span class="footer__tweet--author">@Whatever</span> Lorem ipsum
+                                dolor sit
+                                amet
+                                consectetur adipisicing elit. Quia, porro?</p>
+                            <p class="footer__tweet"><span class="footer__tweet--author">@Whichever</span> Lorem ipsum,
+                                dolor
+                                sit
+                                amet consectetur adipisicing elit. Ipsa provident similique quibusdam pariatur inventore
+                                eligendi?
+                            </p>
+
+                        </div>
             </div>
         </div>
 
@@ -587,14 +593,22 @@
                 <li class="footer__link footer__byline-link"><a class="footer__link" href="#">Contacts</a></li>
                 <li class="footer__link footer__byline-link"><a class="footer__link" href="#">Terms of use</a></li>
                 <li class="footer__link footer__byline-link"><a class="footer__link" href="#">Privacy</a></li>
-                <li class="footer__link footer__byline-link"><a class="footer__link" href="#">Environmental Policy</a></li>
+                <li class="footer__link footer__byline-link"><a class="footer__link" href="#">Environmental Policy</a>
+                </li>
             </ul>
         </div>
 
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>a
 
     <script type="text/javascript" src="plugins/slick/slick.min.js"></script>
 
